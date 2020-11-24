@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "--INVALID COMMANDS--"
+echo "1 testing"
+echo "1 testing" | .././simple_shell
+echo ""
+echo "" | ./simple_shell
+echo "./4 testing"
+echo "./4 testing" | .././simple_shell
+echo "--VALID COMMANDS--"
+echo "bin/ls"
